@@ -1,0 +1,371 @@
+[
+  {
+    "id": "TC001",
+    "title": "Homepage Hero Section Display",
+    "description": "Verify the hero section on the homepage correctly displays Aditya Paswan's name, tagline, resume download button, and social media icons.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to homepage"
+      },
+      {
+        "type": "assertion",
+        "description": "Check that Aditya Paswan's name and tagline are visible in the hero section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify resume download button is displayed and clickable"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm social media icons are visible and correctly linked"
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "title": "Resume Download Button Functionality",
+    "description": "Validate that clicking the resume download button initiates download of the correct resume file.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to homepage"
+      },
+      {
+        "type": "action",
+        "description": "Click on the resume download button in the hero section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that the resume file download prompt is triggered with the correct file"
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "title": "Navigation Bar Sticky and Responsive Behavior",
+    "description": "Ensure the navigation bar sticks to the top on scroll and collapses into a hamburger menu on mobile screen sizes.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Load the homepage on desktop viewport"
+      },
+      {
+        "type": "action",
+        "description": "Scroll page vertically"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the navigation bar remains visible and sticky at the top during scrolling"
+      },
+      {
+        "type": "action",
+        "description": "Resize browser viewport to mobile screen size width"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm navigation collapses into a hamburger menu icon"
+      },
+      {
+        "type": "action",
+        "description": "Click hamburger menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify navigation links expand and are clickable"
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "title": "Projects Section Grid Display and Hover Effects",
+    "description": "Verify that projects are displayed in a responsive grid and hovering over a project card reveals a GitHub link button.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Projects section from navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Check that project cards are displayed in a grid layout adapting to viewport size"
+      },
+      {
+        "type": "action",
+        "description": "Hover over a project card"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a button linking to the project's GitHub repository appears on hover"
+      },
+      {
+        "type": "action",
+        "description": "Click on GitHub link button"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm GitHub repository opens in a new tab"
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "title": "Skills Marquee Display and Responsiveness",
+    "description": "Ensure the Skills Marquee section displays technical skills as scrolling badges or marquee and is responsive on all devices.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Skills section"
+      },
+      {
+        "type": "assertion",
+        "description": "Check technical skills appear as scrolling badges or marquee"
+      },
+      {
+        "type": "action",
+        "description": "Resize viewport to mobile and desktop sizes"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify marquee or badges adapt and remain visible without layout breakage"
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "title": "Experience and Education Sections Content Verification",
+    "description": "Verify Experience and Education sections display all relevant background, certifications, and education details correctly.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Experience section"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm professional background entries are displayed with correct formatting"
+      },
+      {
+        "type": "action",
+        "description": "Navigate to Education section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify certifications and educational qualifications are visible and correct"
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "title": "Contact Form Submission with Mailto Fallback",
+    "description": "Test that the contact form can be filled and submitted, and the mailto fallback links are functioning for visitor inquiries.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Contact section"
+      },
+      {
+        "type": "action",
+        "description": "Fill contact form fields with valid data"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Check that form submission triggers successful send or fallback mailto link"
+      },
+      {
+        "type": "action",
+        "description": "Click mailto email address or phone contact link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify default mail client opens with correct recipient and subject"
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "title": "Dark Mode Theme Consistency",
+    "description": "Ensure dark mode theme with deep slate/navy backgrounds and electric blue or vibrant purple accents is applied consistently across all pages and components.",
+    "category": "ui",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Enable dark mode theme (if toggle is present)"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify background colors are deep slate or navy across components"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm accent colors use electric blue or vibrant purple appropriately"
+      },
+      {
+        "type": "assertion",
+        "description": "Check typography and spacing remain consistent and readable"
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "title": "Responsive Layout Across Different Screen Sizes",
+    "description": "Verify that the entire portfolio website layout adapts seamlessly from mobile to tablet to desktop screen sizes.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Load the site in mobile viewport"
+      },
+      {
+        "type": "assertion",
+        "description": "Validate content is readable and navigation usable without horizontal scroll"
+      },
+      {
+        "type": "action",
+        "description": "Resize viewport to tablet and desktop sizes"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm layout adjusts appropriately for each size with no overflow or content clipping"
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "title": "Animations Performance and Smoothness",
+    "description": "Verify animations using Framer Motion run smoothly and do not cause performance degradation or jank across browsers.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate through multiple pages and sections triggering animations (e.g., hero intro, project hover effects)"
+      },
+      {
+        "type": "assertion",
+        "description": "Observe animations are smooth without frame drops or visible glitches"
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm animations do not block user interactions or cause delays"
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "title": "Projects Data Accuracy and Completeness",
+    "description": "Verify all projects displayed in the Projects Section match the data from constants.ts including project title, description, live demo, and GitHub links.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Projects section"
+      },
+      {
+        "type": "assertion",
+        "description": "Compare rendered project details with the source data in constants.ts"
+      },
+      {
+        "type": "assertion",
+        "description": "Validate all GitHub links correspond to the correct project repository"
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "title": "Navigation Flow to All Major Sections",
+    "description": "Test that the sticky navigation bar links allow users to navigate correctly to About, Experience, Projects, Certifications, and Contact sections.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Click on 'About' in navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the view scrolls smoothly to the About section"
+      },
+      {
+        "type": "action",
+        "description": "Click on 'Experience' in navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify scroll to Experience section"
+      },
+      {
+        "type": "action",
+        "description": "Click on 'Projects' in navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify scroll to Projects section"
+      },
+      {
+        "type": "action",
+        "description": "Click on 'Certifications' in navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify scroll to Certifications section"
+      },
+      {
+        "type": "action",
+        "description": "Click on 'Contact' in navigation bar"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify scroll to Contact section"
+      }
+    ]
+  },
+  {
+    "id": "TC013",
+    "title": "Contact Form Validation with Invalid or Missing Data",
+    "description": "Verify form validation handles invalid input or missing required fields gracefully with appropriate error messages.",
+    "category": "error handling",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to Contact section"
+      },
+      {
+        "type": "action",
+        "description": "Attempt to submit contact form with empty required fields"
+      },
+      {
+        "type": "assertion",
+        "description": "Check for error messages indicating required fields are missing"
+      },
+      {
+        "type": "action",
+        "description": "Fill form with invalid email format and submit"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify email validation error message is displayed"
+      }
+    ]
+  }
+]

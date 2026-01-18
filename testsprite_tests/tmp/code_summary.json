@@ -1,0 +1,53 @@
+{
+    "tech_stack": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion"
+    ],
+    "features": [
+        {
+            "name": "Hero Section",
+            "description": "Main landing section with user introduction, photo, and social links.",
+            "files": [
+                "src/components/Hero.tsx"
+            ]
+        },
+        {
+            "name": "About Section",
+            "description": "Section describing the user's background and bio.",
+            "files": [
+                "src/components/About.tsx"
+            ]
+        },
+        {
+            "name": "Projects Section",
+            "description": "Showcase of user's projects with links to demos and repositories.",
+            "files": [
+                "src/components/Projects.tsx"
+            ]
+        },
+        {
+            "name": "Skills Section",
+            "description": "Display of technical skills and certifications.",
+            "files": [
+                "src/components/Skills.tsx"
+            ]
+        },
+        {
+            "name": "Contact Section",
+            "description": "Contact form and information for reaching the user.",
+            "files": [
+                "src/components/Contact.tsx"
+            ]
+        },
+        {
+            "name": "Data Constants",
+            "description": "Static data for the portfolio including profile, projects, and skills.",
+            "files": [
+                "src/data/constants.ts"
+            ]
+        }
+    ]
+}

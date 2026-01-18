@@ -1,0 +1,16 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "portfolio",
+    "projectPath": "c:\\Users\\adity\\OneDrive\\Desktop\\Sample PortFolio\\portfolio",
+    "testIds": [],
+    "additionalInstruction": "Run all tests to check for deployment readiness.",
+    "envs": {
+      "API_KEY": "sk-user-AYJzctWp157FM2hqEqbqCB3tZ20bHvCxMS0fybVIALCPsDClfghjondS4vRhO0T4uNH2WPDzExJ-3go_4y3nnAedSFfe1zfyhh9cZhxEBuopFm2r5H2sB_KBAIw39NgvH_0"
+    }
+  },
+  "proxy": "http://a9375a50-d5fe-49ab-b416-292964d804fe:0aCwFSkXjQ5LgQGz1dvGLImYMiMGiD6p@tun.testsprite.com:8080"
+}
