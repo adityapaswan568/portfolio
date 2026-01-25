@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { PROFILE } from "@/data/constants";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable}`} suppressHydrationWarning>{children}</body>
+      <body className={`${inter.variable}`} suppressHydrationWarning>
+        {children}
+        <ScrollToTop />
+      </body>
     </html>
   );
 }

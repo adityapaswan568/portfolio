@@ -50,7 +50,7 @@ You are an expert Full Stack Web Developer and UI/UX Designer. Your task is to b
   - **Date:** Jan 2025 - Present
   - **Details:** Developed Stock Portfolio Tracker and automated system tasks using Python scripts to improve workflow efficiency.
 - **Role:** Project Lead (Hackathon)
-  - **Event:** Techkirti 2.0 (KIIT, Odisha)
+  - **Event:** Techkirti 2.0 (KIIT, varanasi)
   - **Date:** 2025
   - **Details:** Built "Samadhan Portal," a community support web solution recognized at the national level.
 

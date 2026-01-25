@@ -5,7 +5,7 @@ export const PROFILE = {
     location: "Mughalsarai, Uttar Pradesh, India",
     email: "adityapaswan568@gmail.com",
     phone: "+91 9794649997",
-    bio: "Enthusiastic Software Developer and BCA Undergraduate (2023-Present) with expertise in HTML, CSS, and Python (Flask). I have a strong problem-solving mindset with a passion for building scalable software solutions and AI-driven projects using Gemini and LLMs.",
+    bio: "Enthusiastic Software Developer and BCA Undergraduate (2023-2026) with expertise in HTML, CSS, JavaScript and Python (Flask). I have a strong problem-solving mindset with a passion for building scalable software solutions and AI-driven projects using Gemini and LLMs.",
 };
 
 export const SOCIAL_LINKS = {
@@ -19,7 +19,7 @@ export const EDUCATION = [
     {
         degree: "Bachelor of Computer Applications (BCA)",
         institution: "School of Management Sciences, Varanasi",
-        duration: "2023 - Present (Pursuing)",
+        duration: "2023 - 2026",
         focus: "Software Engineering & Web Development",
     },
 ];
@@ -35,12 +35,12 @@ export const EXPERIENCE = [
     {
         role: "Python Programming Intern",
         company: "CodeAlpha (Remote)",
-        date: "Jan 2025 - Present",
+        date: "June 2025 - July 2025",
         details: "Developed Stock Portfolio Tracker and automated system tasks using Python scripts to improve workflow efficiency.",
     },
     {
         role: "Project Lead (Hackathon)",
-        event: "Techkirti 2.0 (KIIT, Odisha)",
+        event: "Techkirti 2.0 (KIIT , Varansi)",
         date: "2025",
         details: "Built 'Samadhan Portal,' a community support web solution recognized at the national level.",
     },
