@@ -2,8 +2,7 @@
 
 A modern, responsive, and interactive developer portfolio website to showcase skills, projects, and professional experience. Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.
 
-![Portfolio Preview](./public/profile.jpg)
-*(Note: Replace this with a screenshot of your actual website if available)*
+![Portfolio Preview](./public/Preview.png)
 
 ## 🚀 Features
 
