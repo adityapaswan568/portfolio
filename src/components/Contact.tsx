@@ -18,7 +18,7 @@ const Contact = () => {
                             Let&apos;s <span className="text-primary">Connect</span>
                         </h2>
                         <p className="text-slate-400 text-lg mb-10 leading-relaxed">
-                            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                            I&apos;m always excited to collaborate on new projects and bring creative ideas to life. Whether you have a specific vision in mind or just want to explore possibilities, let&apos;s create something meaningful together.
                         </p>
 
                         <div className="space-y-6">

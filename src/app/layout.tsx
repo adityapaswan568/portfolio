@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { PROFILE } from "@/data/constants";
 import ScrollToTop from "@/components/ScrollToTop";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable}`} suppressHydrationWarning>
+        <ParticlesBackground />
         {children}
         <ScrollToTop />
       </body>
