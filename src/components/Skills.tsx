@@ -3,14 +3,16 @@
 import { motion } from "framer-motion";
 import { TECHNICAL_SKILLS } from "../data/constants";
 
-const Skills = () => {
-    const allSkills = [
-        ...TECHNICAL_SKILLS.languages,
-        ...TECHNICAL_SKILLS.frameworks,
-        ...TECHNICAL_SKILLS.tools,
-        ...TECHNICAL_SKILLS.ai_ml,
-    ];
+const ALL_SKILLS = [
+    ...TECHNICAL_SKILLS.languages,
+    ...TECHNICAL_SKILLS.frameworks,
+    ...TECHNICAL_SKILLS.tools,
+    ...TECHNICAL_SKILLS.ai_ml,
+];
 
+const REPEATED_SKILLS = [...ALL_SKILLS, ...ALL_SKILLS, ...ALL_SKILLS, ...ALL_SKILLS];
+
+const Skills = () => {
     return (
         <section className="py-20 bg-background overflow-hidden border-y border-white/5 relative">
             <div className="container mx-auto px-6 mb-10 text-center">
@@ -32,7 +34,7 @@ const Skills = () => {
                     style={{ width: "fit-content" }}
                 >
                     {/* Repeat 4 times to ensure it fills wide screens */}
-                    {[...allSkills, ...allSkills, ...allSkills, ...allSkills].map((skill, index) => (
+                    {REPEATED_SKILLS.map((skill, index) => (
                         <div
                             key={index}
                             className="flex items-center justify-center px-8 py-4 bg-slate-900/50 border border-slate-800 rounded-xl min-w-[150px] shrink-0"
