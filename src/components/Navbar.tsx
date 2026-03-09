@@ -76,9 +76,9 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <div className="flex space-x-6 mt-4">
-                                <a href="https://github.com/adityapaswan568" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={24} /></a>
-                                <a href="https://www.linkedin.com/in/aditya-paswan-a870082a1" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={24} /></a>
-                                <a href="https://x.com/Adityap96155544" target="_blank" className="text-gray-400 hover:text-white"><FaTwitter size={24} /></a>
+                                <a href="https://github.com/adityapaswan568" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white"><FaGithub size={24} /></a>
+                                <a href="https://www.linkedin.com/in/aditya-paswan-a870082a1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white"><FaLinkedin size={24} /></a>
+                                <a href="https://x.com/Adityap96155544" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white"><FaTwitter size={24} /></a>
                             </div>
                         </div>
                     </motion.div>
