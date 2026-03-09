@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import { SOCIAL_LINKS } from "../data/constants";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
                         </Link>
                     ))}
                     <a
-                        href="https://github.com/adityapaswan568"
+                        href={SOCIAL_LINKS.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-300 hover:text-white transition-colors"
@@ -76,9 +77,9 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <div className="flex space-x-6 mt-4">
-                                <a href="https://github.com/adityapaswan568" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={24} /></a>
-                                <a href="https://www.linkedin.com/in/aditya-paswan-a870082a1" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={24} /></a>
-                                <a href="https://x.com/Adityap96155544" target="_blank" className="text-gray-400 hover:text-white"><FaTwitter size={24} /></a>
+                                <a href={SOCIAL_LINKS.github} target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={24} /></a>
+                                <a href={SOCIAL_LINKS.linkedin} target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={24} /></a>
+                                <a href={SOCIAL_LINKS.twitter} target="_blank" className="text-gray-400 hover:text-white"><FaTwitter size={24} /></a>
                             </div>
                         </div>
                     </motion.div>
