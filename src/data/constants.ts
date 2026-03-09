@@ -90,6 +90,13 @@ export const PROJECTS = [
         link: "https://github.com/adityapaswan568/White-Board",
         demo: "https://adityapaswan568.github.io/White-Board/",
     },
+    {
+        title: "Kashi: The Unexplored City",
+        tech: ["HTML", "CSS", "JavaScript"],
+        description: "A SEO-optimized static website exploring the lesser-known spiritual dimensions and hidden cultural treasures of Varanasi (Kashi).",
+        link: "https://github.com/adityapaswan568/Kashi--The-Unexplored-City-",
+        demo: "https://adityapaswan568.github.io/Kashi--The-Unexplored-City-/",
+    },
 
     // Project Showcase
     {
