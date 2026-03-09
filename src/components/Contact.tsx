@@ -82,8 +82,9 @@ const Contact = () => {
                             className="space-y-6"
                         >
                             <div>
-                                <label className="block text-slate-400 mb-2 text-sm">Your Name</label>
+                                <label htmlFor="name" className="block text-slate-400 mb-2 text-sm">Your Name</label>
                                 <input
+                                    id="name"
                                     type="text"
                                     name="name"
                                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
@@ -92,8 +93,9 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label className="block text-slate-400 mb-2 text-sm">Your Email</label>
+                                <label htmlFor="email" className="block text-slate-400 mb-2 text-sm">Your Email</label>
                                 <input
+                                    id="email"
                                     type="email"
                                     name="email"
                                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
@@ -102,8 +104,9 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label className="block text-slate-400 mb-2 text-sm">Message</label>
+                                <label htmlFor="message" className="block text-slate-400 mb-2 text-sm">Message</label>
                                 <textarea
+                                    id="message"
                                     name="message"
                                     rows={4}
                                     className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
