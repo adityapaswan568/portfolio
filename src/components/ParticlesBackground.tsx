@@ -5,6 +5,7 @@ import Script from "next/script";
 
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     particlesJS: any;
   }
 }
@@ -13,6 +14,7 @@ export default function ParticlesBackground() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
