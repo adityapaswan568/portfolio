@@ -49,6 +49,7 @@ const Navbar = () => {
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         className="text-gray-300 hover:text-white focus:outline-none"
+                        aria-label="Toggle mobile menu"
                     >
                         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                     </button>
