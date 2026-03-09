@@ -12,10 +12,10 @@ interface Project {
     demo?: string;
 }
 
-const Projects = () => {
-    const liveProjects = PROJECTS.filter(project => project.demo);
-    const showcaseProjects = PROJECTS.filter(project => !project.demo);
+const liveProjects = PROJECTS.filter(project => project.demo);
+const showcaseProjects = PROJECTS.filter(project => !project.demo);
 
+const Projects = () => {
     return (
         <section id="projects" className="py-20 bg-background relative">
             <div className="container mx-auto px-6">
